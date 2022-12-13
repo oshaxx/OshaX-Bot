@@ -1,8 +1,8 @@
 {
-  "name": "Astro-Md",
+  "name": "OshaX-Bot",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://raw.githubusercontent.com/vihangayt0/server-/main/Astroboy.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "AstroBot", "Astro","AstroMD","theme bot","multi device"],
+  "logo": "https://raw.githubusercontent.com/oshaxx/IMAGE/main/Socialthumb.png",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "OshaX-Bot", "OshaX-Bot","OshaX-Bot","theme bot","multi device"],
   "success_url": "/",
   "stack": "container",
 "env": {
