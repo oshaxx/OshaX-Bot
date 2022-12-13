@@ -256,19 +256,18 @@ cmd({
         },
         async(Void, citel, text, isAdmins) => {
             const aliveadm = isAdmins ? "True" : "False";
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by Osha X.*`
+            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by Oshada.*`
             const alivtxt = `
-*Hey, ${citel.pushName},*
-*This is OshaX-Bot.*
-${alivemessage}
-*Version:- _0.0.1_*
-*Uptime:- _${runtime(process.uptime())}_*
-*Owner:- _${Config.ownername}_*
-*Branch:- _${Config.BRANCH}_*
+*Hey, _${citel.pushName},_*
+*💫This is OshaX-Bot💫*
+${alive.message}
+*Version🗽:- _0.0.1_*
+*Uptime🏊:- _${runtime(process.uptime())}_*
+*Owner🎭:- _${Config.ownername}_*
 
-*Type ${prefix}menu for my command list ✅.*
+*Type ${prefix}menu for command list ✅.*
 
-*Powered by ${Config.ownername}*
+*_Powered By ${Config.ownername}_*
 `;
             let aliveMessage = {
                 image: {
