@@ -52,22 +52,19 @@ cmd({
                     .locale('id')
                 const date = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 let total = await sck1.countDocuments()
-                let str = `╭────〔 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 〕─────⊷\n`
+                let str = `╭────〔 ` + (Config.ownername.split(' ')[0], 58) + ` 〕─────⊷\n`
                 str +=
-                    '```' + `│ ╭──────────────
+                    '*' + `│ ╭──────────────
 │ │ User:- ${citel.pushName}
-│ │ Theme:- ${tlang().title}
 │ │ Prefix:- [ ${prefix} ]
 │ │ Owner:- ${Config.ownername}
 │ │ Plugins:- ${commands.length}
 │ │ Users:- ${total}
-│ │ Uptime:- ${runtime(process.uptime())}
-│ │ Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
 │ │ Time:- ${time}
 │ │ Date:- ${date}
 │ ╰────────────
 ╰───────────────⊷\n
-` + '```'
+` + '*'
                 str += `╭───『 ` + fancytext('Commands', 57) + `』──◆`
                 for (const category in cmds) {
                     str += `
@@ -98,7 +95,7 @@ cmd({
                 let buttonMessaged = {
                     image: { url: await botpic() },
                     caption: str,
-                    footer: `OshaX-Bot`,
+                    footer: 'OshaX-Bot',
                     headerType: 4,
                     buttons: generatebutton
                 };
@@ -117,10 +114,9 @@ cmd({
             const { commands } = require('../lib');
             let str = `
 ╭━━〘 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 〙━━──⊷`
-            str += '```' + `
+            str += '*' + `
 ┃ ⛥╭──────────────      
 ┃ ⛥│ User: ${citel.pushName}
-┃ ⛥│ Theme: ${tlang().title}
 ┃ ⛥│ Prefix: ${prefix}
 ┃ ⛥│ Owner: ${Config.ownername}
 ┃ ⛥│ Commands: ${commands.length}
@@ -128,7 +124,7 @@ cmd({
 ┃ ⛥│ Mem: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
 ┃ ⛥│  
 ┃ ⛥╰───────────
-╰━━━━━━━━━━━──⊷\n` + '```'
+╰━━━━━━━━━━━──⊷\n` + '*'
             str += `╭━━━━━━━━━━━────⊷\n`
             str += `┃ ⛥ ╭─────────────\n`
             for (let i = 0; i < commands.length; i++) {
