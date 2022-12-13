@@ -1,6 +1,6 @@
 {
 	"__JSON__": true,
-	"AUTHOR": "SamPandey001",
+	"AUTHOR": "Oshada",
 	"LANGUAGE": "English",
 	"LANGCODE": "en",
 	"STRINGS": {
@@ -10,8 +10,8 @@
 			"UPDATED_LOCAL": "*Successfully Updated!*"
 		},
 		"global": {
-			"botName": " Powered by Astro-MD",
-			"body": "𝑊ℎ𝑎𝑡𝑠𝑎𝑝𝑝 𝐵𝑜𝑡",
+			"botName": " Powered by OshaX-Bot",
+			"body": "Whatsapp Bot",
 			"greet2" : "Bro",
 			"pic1": "https://raw.githubusercontent.com/oshaxx/IMAGE/main/Socialthumb.png",
 			"pic2": "https://raw.githubusercontent.com/oshaxx/IMAGE/main/Socialthumb.png",
@@ -28,27 +28,27 @@
                         "permited": "Hii ${tname} Brow*\n\nNow You are permitted by my owner to pm now.\n\n *Powered by Osha X", 
                         "revoked" : "*Hii ${tname} Sir*\n\nYour pm permit permission has been prevoked now.\n\n _Powered by Osha X_",
                         "demote": "Uhh,Admin Role Taken back",
-                        "antlink": "Link Detected.\n*Good Bye Sir*",
+                        "antlink": "Link Detected.\n*Good Bye👋*",
                         "session": "\n*This is your session.sam.json,keep it safe and store it properly*\n_Now Upload This json file in Your Forked Repo_\n Connect your repo to Heroku and *Deploy Branch* and Bot will run for Always\n\n*Powered by Osha X*",
-                        "mention": " Please mention any user",
-                        "title": "Osha X",
-                        "footer": "Osha X",
-                        "by": "Made by: *CitelVoid*",
+                        "mention": " Please mention any user👆",
+                        "title": "OshaX-Bot",
+                        "footer": "OshaX-Bot",
+                        "by": "Made by: *Oshada*",
                         "chat_desc": "Options Avilable* : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
                         "success": "Done ✓",
                         "dot": "Did you mean *help?*",
                         "couple_male": "*I dont want to die alone,I want a female yaar*",
                         "couple_female": "*I dont want to die alone,I want a male yaar*",
-                        "admin": "*This Command Is Only For Group Admins⚠️!*",
-                        "botAdmin": "*Please Provide Me Admin Role.❗*",
+                        "admin": "*This Command Is Only For Group Admins⚠️*",
+                        "botAdmin": "*Please Provide Me Admin Role⚠️*",
                         "owner": "*This Command Is Only For Owner⚠️*",
-                        "group": "*This Feature Is Only For Groups❗*",
+                        "group": "*This Feature Is Only For Groups⚠️*",
                         "private": "*This Feature Is Only For Owner⚠️*",
                         "bot": "*This Feature Is Only For Bot Number⚠️*",
                         "wait": "*Processing For Request ✅*" 
                },
 		"error": {
-			"text": "*Uhh,Got an Error*"
+			"text": "*Uhh,Got an Error⚠️*"
 		}
 	}
   }
